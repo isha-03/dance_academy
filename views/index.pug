@@ -1,0 +1,31 @@
+//- index.pug
+doctype html
+html
+  head
+    title Isha's dance academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top 
+        ul
+            li #[a(href="/") Home ]
+            li #[a(href="/") About]
+            li #[a(href="/") Services ]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contacts ]
+    section#introSection
+        | Dance is the hidden language of the soul.
+    section#missionSection 
+        h2 Our mission
+        div.card 
+          h3 to provide professional dance instruction
+        div.card 
+          h3 to instill a great love of dance
+        div.card 
+          h3 to perform dances as a sport
+    section#sponsorsSection 
+        h2 Our Sponsors 
+    footer#footer 
+        | footer here
+    script
+      include ../static/script.js

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@600&family=Edu+NSW+ACT+Foundation&family=Hubballi&family=Hurricane&family=Inconsolata:wght@500&family=Indie+Flower&family=Josefin+Sans:wght@500&family=Lato&family=Montserrat&family=Nunito&family=Pacifico&family=Permanent+Marker&family=Roboto+Mono&family=Roboto:wght@700&family=Shadows+Into+Light&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+#navbar{
+    background-color: rgb(242, 243, 214);
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 0px;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 20px 25px;
+    color: rgb(111, 113, 115);
+}
+#navbar li a:hover{
+    color:black;
+}
+#introSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: center / cover no-repeat url('../static/bg.jpg');
+    background-color: rgb(215, 208, 231);
+    height:300px;
+    color: white;
+    opacity: 0.7;
+    font-size: 35px;
+}
+#missionSection{
+    height:300px;
+}
+#missionSection h2{
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(104, 101, 101);
+}
+.card{
+    display: inline-block;
+    border: 2px solid rgb(180, 175, 175);
+    border-radius: 10px;
+    width:30%;
+    margin: 20px 25px;
+    height: 200px;
+    background-color: rgb(241, 243, 220);
+}
+.card h3{
+    color: rgb(120, 120, 115);
+    text-align: center;
+    margin-top: 15px;
+}
+#sponsorsSection{
+    background-color: rgb(188, 180, 184);
+    height:300px;
+}
+#sponsorsSection h2{
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+}
+#footer{
+    background-color: rgb(242, 243, 214);
+    height:70px;
+}
