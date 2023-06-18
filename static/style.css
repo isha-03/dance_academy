@@ -5,25 +5,35 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+#logo{
+    display: flex;
+}
+
 #navbar{
-    background-color: rgb(242, 243, 214);
+    background-color: rgb(185, 162, 237);/* rgb(242, 243, 214) */
+}
+#logo img{
+    height: 30px;
+    width: 30px;
+    filter: invert(1);
 }
 #navbar ul{
     display: flex;
     flex-direction: row;
-    justify-content: center;
     padding: 10px 0px;
+    margin-left: 10px;
 }
 #navbar li{
     list-style: none;
+    margin-top: 5px;
 }
 #navbar li a{
     text-decoration: none;
     padding: 20px 25px;
-    color: rgb(111, 113, 115);
+    color: rgb(54, 54, 55);
 }
 #navbar li a:hover{
-    color:black;
+    color:white;
 }
 #introSection{
     display: flex;
@@ -38,6 +48,7 @@
 }
 #missionSection{
     height:300px;
+    background-color: rgb(215, 208, 231);
 }
 #missionSection h2{
     padding-top: 10px;
@@ -51,12 +62,27 @@
     width:30%;
     margin: 20px 25px;
     height: 200px;
-    background-color: rgb(241, 243, 220);
+    background-color: white;
 }
 .card h3{
-    color: rgb(120, 120, 115);
+    color: rgb(103, 103, 100);
     text-align: center;
     margin-top: 15px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.card-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    font-size: 15px;
+    color: rgb(102, 104, 106);
+
+}
+.card-img img{
+    width: 100px;
+    height: 100px;
 }
 #sponsorsSection{
     background-color: rgb(188, 180, 184);
@@ -67,7 +93,20 @@
     text-align: center;
     color: white;
 }
+#sponsors{
+    height: 190px;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+.spimg{
+    height: 80%;
+    margin: 25px;
+}
+
 #footer{
-    background-color: rgb(242, 243, 214);
+    background-color: rgb(215, 208, 231);
     height:70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

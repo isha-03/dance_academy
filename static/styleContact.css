@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script:wght@600&family=Edu+NSW+ACT+Foundation&family=Hubballi&family=Hurricane&family=Inconsolata:wght@500&family=Indie+Flower&family=Josefin+Sans:wght@500&family=Lato&family=Montserrat&family=Nunito&family=Pacifico&family=Permanent+Marker&family=Roboto+Mono&family=Roboto:wght@700&family=Shadows+Into+Light&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(215, 210, 212);
+}
+h2{
+    text-align: center;
+    margin: 15px 0px;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.myInput{
+    width: 40%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    border: 2px solid rgb(153, 151, 151);
+    border-radius: 10px;
+}
+.btn{
+    padding:10px 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: rgb(15, 15, 15);
+    color: aliceblue;
+    margin: 20px;
+    border: none;
+    cursor: pointer;
+}

@@ -1,20 +1,13 @@
-//- index.pug
-doctype html
-html
-  head
-    title Isha's dance academy
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style     
     style
       include ../static/style.css
-  body
-    nav#navbar.top 
-        ul
-          div#logo 
-            img(src="/static/logo2.png")
-          li #[a(href="/") Home ]
-          li #[a(href="/") About]
-          li #[a(href="/") Services ]
-          li #[a(href="/") Class Info]
-          li #[a(href="/") Contacts ]
+
+block content 
     section#introSection
         | Dance is the hidden language of the soul.
     section#missionSection 
@@ -48,7 +41,5 @@ html
           img(src="/static/sponsor3b.png", alt="sponsor image", class="spimg") 
           img(src="/static/sponsor4e.png", alt="sponsor image", class="spimg") 
           
-    footer#footer 
-        | Copyright © 2023 IshaDanceAcademy.com | All rights reserved
     script
       include ../static/script.js
